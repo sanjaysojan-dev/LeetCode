@@ -27,7 +27,8 @@ public class RemoveDuplicatesSortedArray {
         int j = i+1;
         int index = 1;
 
-     
+
+
         while (j <= nums.length -1) {
             if (nums[i] != nums[j]) {
                 nums[index] = nums[j];
