@@ -22,6 +22,7 @@ public class PlusOne {
     }
 
 
+    //Solution does not work - maybe?
     public static int [] plusOneV2 (int [] digits) {
         int length = digits.length;
         int [] output = Arrays.copyOf(digits, digits.length+1);
@@ -36,6 +37,7 @@ public class PlusOne {
     public static void main(String[] args) {
         int [] input = {1 ,2, 9};
         System.out.println(Arrays.toString(plusOne(input)));
+        //Ans: 1, 2, 10
         System.out.println(Arrays.toString(plusOneV2(input)));
     }
 }
